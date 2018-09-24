@@ -1,12 +1,14 @@
-dictionary = {
-  'hello' => 'hi'
-  'to, two, too' => '2'
-  'for' => '4'
-  'be' => 'b'
-  'you' => 'u'
-  'at' => '@'
-  'and' => '&'
-}
+def dictionary
+  dictionary = {
+    'hello' => 'hi'
+    'to, two, too' => '2'
+    'for' => '4'
+    'be' => 'b'
+    'you' => 'u'
+    'at' => '@'
+    'and' => '&'
+  }
+end
 
 def word_substituter(tweet)
   short_tweet = []
