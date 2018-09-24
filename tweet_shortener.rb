@@ -14,8 +14,7 @@ end
 
 def word_substituter(tweet)
   short_tweet = []
-  tweet_array = tweet.split(' ')
-  tweet_array.each do |word|
+  tweet.split(' ').each do |word|
     dictionary.keys.each do |k,v|
       k == word ? short_tweet << v : short_tweet << word
     end
