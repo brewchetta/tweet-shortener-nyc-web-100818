@@ -1,3 +1,5 @@
 # Write your code here.
 
-def twee
+def dictionary
+
+end
