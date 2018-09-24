@@ -17,6 +17,7 @@ def word_substituter(tweet)
   tweet.split(' ').each do |word|
     dictionary.each do |k,v|
       word.replace v if k == word
+      short_tweet << word
     end
   end
   short_tweet.join(" ")
