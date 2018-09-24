@@ -11,6 +11,7 @@ def dictionary
 end
 
 def word_substituter(tweet)
+  d = dictionary
   short_tweet = []
   tweet_array = tweet.split(' ')
   tweet_array.each do |word|
