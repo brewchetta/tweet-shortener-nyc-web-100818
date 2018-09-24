@@ -22,5 +22,3 @@ def word_substituter(tweet)
   end
   short_tweet.join(" ")
 end
-
-word_substituter("I am a very pretty princess, and so are you!")
