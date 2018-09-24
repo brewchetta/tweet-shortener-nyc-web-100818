@@ -28,3 +28,5 @@ def bulk_tweet_shortener(tweets)
     print word_substituter(tweet)
   end
 end
+
+def selective_tweet_shortener(tweet)
