@@ -11,7 +11,7 @@ dictionary = {
 def word_substituter(tweet)
   short_tweet = []
   tweet.split(' ').each do |word|
-    dictionary.each do |k,v|
+    $dictionary.each do |k,v|
       word.downcase == k ? short_tweet << v : short_tweet << word
     end
   end
