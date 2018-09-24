@@ -12,9 +12,7 @@ def word_substituter(tweet)
   short_tweet = []
   tweet_array = tweet.split(' ')
   tweet_array.each do |word|
-    $dictionary.each do |k,v|
-      word.include?(k) ? short_tweet << v : short_tweet << word
-    end
+    word.include?(k) ? short_tweet << v : short_tweet << word
   end
   short_tweet.join(" ")
 end
