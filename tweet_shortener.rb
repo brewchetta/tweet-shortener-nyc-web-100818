@@ -1,7 +1,9 @@
 def dictionary
   dictionary = {
     'hello' => 'hi'
-    'to, two, too' => '2'
+    'too' => '2'
+    'two' => '2'
+    'to' => '2'
     'for' => '4'
     'be' => 'b'
     'you' => 'u'
