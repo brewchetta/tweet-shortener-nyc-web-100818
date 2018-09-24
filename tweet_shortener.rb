@@ -9,5 +9,11 @@ dictionary = {
 }
 
 def word_substituter(tweet)
-  tweet.split(' ')
+  short_tweet
+  tweet.split(' ').each do |word|
+    dictionary.each do |k,v|
+      
+    end
+  end
+  short_tweet
 end
