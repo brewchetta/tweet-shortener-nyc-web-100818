@@ -1,4 +1,5 @@
-dictionary = {
+def dictionary
+  dictionary = {
   'hello' => 'hi'
   'to, two, too' => '2'
   'for' => '4'
@@ -6,7 +7,8 @@ dictionary = {
   'you' => 'u'
   'at' => '@'
   'and' => '&'
-}
+  }
+end
 
 def word_substituter(tweet)
   short_tweet = []
