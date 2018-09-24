@@ -15,5 +15,5 @@ def word_substituter(tweet)
       word.downcase == k ? short_tweet << v : short_tweet << word
     end
   end
-  short_tweet
+  short_tweet.join(" ")
 end
