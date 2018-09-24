@@ -3,4 +3,9 @@
 dictionary = {
   'hello' => 'hi'
   'hello' => 'hi'
+  'hello' => 'hi'
+  'hello' => 'hi'
+  'hello' => 'hi'
+  'hello' => 'hi'
+  'hello' => 'hi'
 }
